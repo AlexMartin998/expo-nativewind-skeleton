@@ -9,6 +9,16 @@ module.exports = {
 
   theme: {
     extend: {
+      colors: {
+        primary: '#49129C',
+        secondary: {
+          DEFAULT: '#B40086',
+          100: '#C51297',
+          200: '#831266',
+        },
+        tertiary: '#EF2967',
+      },
+
       fontFamily: {
         // nombre tal cual esta en el archivo de fuentes: WorkSans-Black.ttf
         'work-black': ['WorkSans-Black', 'sans-serif'],
